@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="mainContainerPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.salpagarov_rustam_201_hw5.GameController">
+   <Text fx:id="stopwatch" layoutX="480.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="170.13671875">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Text>
+   <Canvas fx:id="gameArea" height="400.0" layoutX="80.0" layoutY="167.0" width="400.0" />
+   <Button layoutX="510.0" layoutY="536.0" mnemonicParsing="false" onMouseClicked="#FinishButtonClicked" prefHeight="25.0" prefWidth="109.0" text="Finish" />
+   <opaqueInsets>
+      <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+   </opaqueInsets>
+</Pane>
