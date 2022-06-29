@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.salpagarov_rustam_201_hw5.JigsawController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Label text="Jigsaw">
+        <font>
+          <Font name="Roboto Light" size="18.0" />
+        </font>
+    </Label>
+   <TextField fx:id="nameTextFiled" promptText="Введите имя" />
+   <Button fx:id="startButton" mnemonicParsing="false" onMouseClicked="#onJoinMultiplayerButtonClicked" text="Join Multiplayer" />
+   <Button fx:id="topButton" mnemonicParsing="false" onAction="#showTop" text="Top 10" />
+    <Button fx:id="exitButton" mnemonicParsing="false" onMouseClicked="#onExitButtonClicked" text="Exit" textAlignment="CENTER" />
+</VBox>
